@@ -20,5 +20,5 @@ from board.views import *
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^basic/',basic),
-    url(r'^table/',table)
+    url(r'^$',table)
 ]

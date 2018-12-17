@@ -6,4 +6,4 @@ def basic(request):
     return HttpResponse("Welcome")
 
 def table(request):
-    return render_to_response('index.html',context=None)
+    return render_to_response('table.html',context=None)
