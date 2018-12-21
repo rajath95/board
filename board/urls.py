@@ -21,5 +21,5 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^basic/',basic),
     url(r'^fixed/',fixed),
-    url(r'^standings/',table)
+    url(r'^$',table)
 ]
